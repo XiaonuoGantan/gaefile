@@ -1,5 +1,5 @@
 # gaefile
-`gaefile` is an open source golang project that implements simple file uploads and downlloads using Google Cloud Storage.
+`gaefile` is an open source golang project that implements simple file uploads and downloads using Google Cloud Storage.
 
 ## How to use this project?
 
