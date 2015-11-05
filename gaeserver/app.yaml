@@ -1,0 +1,17 @@
+application: swipeem-1
+version: 1
+runtime: go
+api_version: go1
+
+
+handlers:
+- url: /.*
+  script: _go_app
+
+skip_files:
+- ^(util|upload)/
+
+env_variables:
+  GOOGLE_ACCESS_ID: 'ServiceAccountAccessID.txt'
+  GOOGLE_PRIVATE_KEY: 'ServiceAccountPrivateKey.pem'
+  GOOGLE_CLOUD_STAORAGE_BUCKET: 'swipeem-dev'
